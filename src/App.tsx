@@ -1,14 +1,13 @@
 import { Box, Center } from "@chakra-ui/react"
+import NavBar from "./Components/NavBar"
 
 const App = () => {
   return (
     <Box h="100vh" overflow="hidden">
-      {/* Nav */}
-      <Box h="60px" bg="yellow">
-        Nav
+      <Box>
+        <NavBar/>
       </Box>
 
-      {/* Scrollable sections */}
       <Box
         h="calc(100vh - 60px)"
         overflowY="auto"

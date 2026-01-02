@@ -20,7 +20,7 @@ const NavLinks = () => {
       <Menu>
         <Button variant="ghost">Home</Button>
 
-        <MenuButton as={Button} rightIcon={<BiChevronDown />}>
+        <MenuButton as={Button} variant={'unstyled'} rightIcon={<BiChevronDown />}>
           Works
         </MenuButton>
         <MenuList>

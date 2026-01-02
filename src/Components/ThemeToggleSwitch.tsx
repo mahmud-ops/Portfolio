@@ -9,7 +9,7 @@ const ThemeToggleSwitch = () => {
       {
         colorMode == 'dark' ? <FaMoon/> : <FaSun/>  
       }
-      <Switch isChecked={colorMode === "dark"} onChange={toggleColorMode} />
+      <Switch colorScheme="blue" isChecked={colorMode === "dark"} onChange={toggleColorMode} />
     </HStack>
   );
 };

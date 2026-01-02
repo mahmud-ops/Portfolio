@@ -1,36 +1,29 @@
-import { Box, Center } from "@chakra-ui/react"
-import NavBar from "./Components/NavBar"
+import { Box, Center } from "@chakra-ui/react";
+import NavBar from "./Components/NavBar";
 
 const App = () => {
   return (
     <Box h="100vh" overflow="hidden">
       <Box>
-        <NavBar/>
+        <NavBar />
       </Box>
 
-      <Box
-        h="calc(100vh - 60px)"
-        overflowY="auto"
-        scrollSnapType="y mandatory"
-      >
-        <Box h="100vh" scrollSnapAlign="start" bg="green">
-          <Center>Hero</Center>
+      <Box h="calc(100vh - 60px)" overflowY="auto" scrollSnapType="y mandatory">
+        <Box h="100vh" scrollSnapAlign="start" bgColor="rgba(0,0,0,0.05)">
+          <Center>Works</Center>
         </Box>
-        <Box h="100vh" scrollSnapAlign="start" bg="yellow">
-          Projects
+        <Box h="100vh" scrollSnapAlign="start" bgColor="rgba(0,0,0,0.15)">
+          <Center>Skills</Center>
         </Box>
-        <Box h="100vh" scrollSnapAlign="start" bg="red">
-          Skills
+        <Box h="100vh" scrollSnapAlign="start" bgColor="rgba(0,0,0,0.25)">
+          <Center>Contributions</Center>
         </Box>
-        <Box h="100vh" scrollSnapAlign="start" bg="blue">
-          Experience
-        </Box>
-        <Box h="100vh" scrollSnapAlign="start" bg="pink">
-          Contact
+        <Box h="100vh" scrollSnapAlign="start" bgColor="rgba(0,0,0,0.35)">
+          <Center>Socials</Center>
         </Box>
       </Box>
     </Box>
-  )
-}
+  );
+};
 
-export default App
+export default App;

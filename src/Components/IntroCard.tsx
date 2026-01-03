@@ -26,7 +26,6 @@ const IntroCard = () => {
               fontWeight="extrabold"
               fontSize={{ base: "2.5rem", md: "4rem", lg: "4.5rem" }}
               lineHeight="1.1"
-              color="white"
             >
               Abdullah Al Mahmud
             </Text>
@@ -35,7 +34,7 @@ const IntroCard = () => {
               Linux-first
             </Badge>
 
-            <Text maxW="600px" color="whiteAlpha.900">
+            <Text maxW="600px">
               Focused on web development with a security-aware mindset. Building
               strong full-stack fundamentals through real projects.
             </Text>

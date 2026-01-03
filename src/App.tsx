@@ -1,6 +1,7 @@
 import { Box, Center } from "@chakra-ui/react";
 import NavBar from "./Components/NavBar";
 import Hero from "./Components/Hero";
+import Skills from "./Components/Skills";
 
 const App = () => {
   return (
@@ -16,7 +17,9 @@ const App = () => {
           </Center>
         </Box>
         <Box h="100vh" scrollSnapAlign="start" bgColor="rgba(0,0,0,0.15)">
-          <Center>Skills</Center>
+          <Center>
+            <Skills/>
+          </Center>
         </Box>
         <Box h="100vh" scrollSnapAlign="start" bgColor="rgba(0,0,0,0.25)">
           <Center>Contributions</Center>

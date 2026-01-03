@@ -16,15 +16,15 @@ const App = () => {
             <Hero />
           </Center>
         </Box>
-        <Box h="100vh" scrollSnapAlign="start" bgColor="rgba(0,0,0,0.15)">
+        <Box minHeight={'100vh'} scrollSnapAlign="start" bgColor="rgba(0,0,0,0.05)">
           <Center>
-            <Skills/>
+            <Skills />
           </Center>
         </Box>
-        <Box h="100vh" scrollSnapAlign="start" bgColor="rgba(0,0,0,0.25)">
+        <Box h="100vh" scrollSnapAlign="start" bgColor="rgba(0,0,0,0.05)">
           <Center>Contributions</Center>
         </Box>
-        <Box h="100vh" scrollSnapAlign="start" bgColor="rgba(0,0,0,0.35)">
+        <Box h="100vh" scrollSnapAlign="start" bgColor="rgba(0,0,0,0.05)">
           <Center>Socials</Center>
         </Box>
       </Box>
